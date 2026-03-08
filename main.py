@@ -1,4 +1,7 @@
 #python-password-generator
+
+import random
+
 # menü
 def password_generator():
     choice = None
@@ -17,6 +20,7 @@ def password_generator():
 
     return choice
 
+#funktionen für start
 def password_laenge():
         print("Wie lang soll ihr password sein")
         laenge = int(input("Länge:"))
@@ -38,7 +42,7 @@ def password_generator_code(leange):
     password_list = []
 
     for i in range(leange):
-        password_list.append(alle_zeichen[i % len(alle_zeichen)])
+        password_list.append(random.choice(alle_zeichen))
 
     password = "".join(password_list)
     print("Dein Passwort:",password)
