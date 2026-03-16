@@ -2,13 +2,13 @@
 
 Ein Python Passwort-Generator mit wählbarer Länge und optionalen Sonderzeichen
 
-##Funktion
+## Funktion
 
 - Passwort generieren
 - Länge des Passworts auswählen
 - Optional Sonderzeichen hinzufügen
 
-##Nutzung 
+## Nutzung 
 
 Starte das Programm mit:
 
